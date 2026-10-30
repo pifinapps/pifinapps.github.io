@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://pifinapps.github.io/sitemap.xml
