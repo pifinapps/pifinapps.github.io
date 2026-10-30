@@ -32,8 +32,8 @@
 @media(max-width:560px){.story{padding:78px 0 60px}.story-manifesto{grid-template-columns:1fr 1fr;gap:9px}.manifesto-item{padding:18px 15px;min-height:0}.manifesto-item h3{font-size:1.2rem}.manifesto-item p{font-size:.8rem}.story-bridge{gap:10px;margin-top:38px}.story-bridge p{font-size:1.08rem}.ney-showcase{padding:65px 0}.ney-screen-grid{grid-template-columns:1fr}.ney-screen-card img{aspect-ratio:16/9}.showcase-heading h2{font-size:3.4rem}}
 
 /* PifinApps brand integration and authentic Neyyapimi screenshots */
-.brand-logo{display:block;width:218px;height:auto;max-height:58px;object-fit:contain;object-position:left center}
-.footer-brand .brand-logo{width:190px;max-height:48px}
+.brand-logo{display:block;width:190px;height:auto;max-height:58px;object-fit:contain;object-position:left center}
+.footer-brand .brand-logo{width:170px;max-height:48px}
 .story-minimal{min-height:370px;display:flex;align-items:center;justify-content:center;padding:70px 0;background:radial-gradient(ellipse at 50% 65%,#0b2028 0,transparent 54%),linear-gradient(110deg,#050b0e,#08151a 70%,#050b0e)}
 .story-wordmark-wrap{position:relative;z-index:2;text-align:center}
 .story-wordmark{margin:0!important;font:500 clamp(4rem,11vw,9rem)/1 var(--sans)!important;letter-spacing:.12em!important;color:#f3e6cc!important;text-shadow:0 8px 50px #d6a95b20}
@@ -43,4 +43,12 @@
 .actual-screens .ney-screen-card img{height:440px;max-height:52vh;aspect-ratio:auto;object-fit:contain;object-position:center;background:#090f11}
 .actual-screens .ney-screen-card p{min-height:48px}
 @media(max-width:900px){.actual-screens{grid-template-columns:repeat(2,minmax(0,1fr))}.actual-screens .ney-screen-card img{height:420px;max-height:48vh}}
-@media(max-width:560px){.brand-logo{width:180px;max-height:48px}.footer-brand .brand-logo{width:170px}.story-minimal{min-height:260px;padding:55px 0}.story-wordmark{font-size:clamp(2.9rem,12vw,4.3rem)!important;letter-spacing:.08em!important}.actual-screens{grid-template-columns:1fr}.actual-screens .ney-screen-card img{height:560px;max-height:68vh}.actual-screens .ney-screen-card p{min-height:0}}
+@media(max-width:560px){.brand-logo{width:158px;max-height:48px}.footer-brand .brand-logo{width:150px}.story-minimal{min-height:260px;padding:55px 0}.story-wordmark{font-size:clamp(2.9rem,12vw,4.3rem)!important;letter-spacing:.08em!important}.actual-screens{grid-template-columns:1fr}.actual-screens .ney-screen-card img{height:560px;max-height:68vh}.actual-screens .ney-screen-card p{min-height:0}}
+
+/* PifinApps hikâyesi: marka imzası ve anlatı birbirinden ayrıdır. */
+.story-wordmark-band{position:relative;min-height:270px;display:flex;align-items:center;justify-content:center;overflow:hidden;margin:-112px 0 72px;padding:55px 0;background:radial-gradient(ellipse at 50% 60%,#0b2028 0,transparent 58%),linear-gradient(110deg,#050b0e,#08151a 70%,#050b0e);border-bottom:1px solid #d9ae6a24}
+.story-wordmark-band .story-orbit{top:50%;right:50%;transform:translate(50%,-50%);width:min(420px,72vw);height:min(420px,72vw);opacity:.5}
+.story-wordmark-band .story-wordmark-wrap{position:relative;z-index:2;text-align:center}
+.story-wordmark-band .story-wordmark{margin:0!important;font:500 clamp(3.5rem,10vw,7.8rem)/1 var(--sans)!important;letter-spacing:.12em!important;color:#f3e6cc!important;text-shadow:0 8px 50px #d6a95b20}
+.story .story-layout{padding-bottom:12px}
+@media(max-width:560px){.story-wordmark-band{min-height:210px;margin:-78px 0 48px;padding:42px 0}.story-wordmark-band .story-wordmark{font-size:clamp(2.6rem,11vw,4rem)!important;letter-spacing:.07em!important}}
