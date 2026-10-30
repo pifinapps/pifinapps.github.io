@@ -22,3 +22,9 @@ Bu paket, PifinApps ana sayfasını ve Sahaf / Neyyapimi ürün tanıtım sayfal
 - İletişim ve fikir paylaşımı: `mailto:pifinapps@gmail.com`
 
 Görsel dil; gece laciverti, sıcak altın tonları, Cormorant Garamond ve DM Sans tipografisi, kozmik manzara ve ürün kartları üzerine kuruldu. Tasarım sembollerle matematiksel düzeni sezdirir; sayısal sabitler veya formüller hero görseline yazılmaz.
+
+## Son güncelleme — 31.10.2026
+- PifinApps ana logosu ana sayfa üst menüsüne ve alt bilgi alanına entegre edildi.
+- Hikayemiz alanı sadeleştirildi; yalnızca `PIFINAPPS` kelime işareti bırakıldı.
+- Neyyapimi tanıtım alanındaki temsili görseller kaldırıldı ve kullanıcı tarafından sağlanan altı gerçek ekran görüntüsü eklendi.
+- Ekran görüntüleri `assets/neyyapimi-screenshots/` klasöründedir.
