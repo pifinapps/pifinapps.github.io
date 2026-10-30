@@ -1,11 +1,24 @@
-# PifinApps tanıtım sitesi
+# PifinApps — GitHub Pages site
 
-GitHub Pages için statik site. `index.html` kök dizinde kalmalıdır.
+Bu paket, PifinApps ana sayfasını ve Sahaf / Neyyapimi ürün tanıtım sayfalarını tek bir görsel dil altında sunar.
 
-- Ana sayfa: `/`
-- Sahaf: `/sahaf/`
-- Pifin Ney Açkı Sistemi: `/neyyapimi/`
+## Yayına alma
 
-Tasarım dosyası `styles.css`, etkileşimler `site.js` içindedir. Ürün ekran görüntüleri `assets/sahaf/` klasöründedir.
+1. ZIP dosyasını bilgisayarınızda ayıklayın.
+2. Ayıklanan klasörün **içindeki tüm dosya ve klasörleri** GitHub deposunun ana dizinine yükleyin.
+3. Aynı isimli dosyalar için değişiklikleri onaylayın ve `Commit changes` ile kaydedin.
+4. GitHub deposunda `Settings → Pages` bölümünde `Deploy from a branch`, `main` ve `/(root)` seçili olmalı.
 
-İletişim bağlantıları Gmail web oluşturma ekranını açar ve `pifinapps@gmail.com` adresini kullanır.
+## Sayfalar
+
+- Ana sayfa: `https://pifinapps.github.io/`
+- Sahaf: `https://pifinapps.github.io/sahaf/`
+- Neyyapimi: `https://pifinapps.github.io/neyyapimi/`
+
+## Bağlantılar
+
+- Sahaf Google Play: `https://play.google.com/store/apps/details?id=com.sahaf.app`
+- Neyyapimi: `https://www.neyyapimi.com`
+- İletişim ve fikir paylaşımı: `mailto:pifinapps@gmail.com`
+
+Görsel dil; gece laciverti, sıcak altın tonları, Cormorant Garamond ve DM Sans tipografisi, kozmik manzara ve ürün kartları üzerine kuruldu. Tasarım sembollerle matematiksel düzeni sezdirir; sayısal sabitler veya formüller hero görseline yazılmaz.
